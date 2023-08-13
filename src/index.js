@@ -7,7 +7,7 @@ import women from "./images/women.svg";
 import Userfeedback from "./UserFeedback";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-const App = function (props) {
+const App = function () {
   return (
     <section className="ui comments">
       <Userfeedback>
@@ -37,11 +37,7 @@ const App = function (props) {
     </section>
   );
 };
-root.render(
-  <React.StrictMode>
-    <App name="Ming" />
-  </React.StrictMode>
-);
+root.render(<App />);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

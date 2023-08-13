@@ -3,11 +3,11 @@ import React from "react";
 const User = (props) => {
   return (
     <div className="comment">
-      <a href="" className="avatar">
-        <img src={props.picture} />
+      <a href="/" className="avatar">
+        <img src={props.picture} alt="icon" />
       </a>
       <div className="content">
-        <a href="" className="author">
+        <a href="/" className="author">
           {props.name}
         </a>
         <div className="metadata">
